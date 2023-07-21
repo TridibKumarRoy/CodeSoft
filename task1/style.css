@@ -12,24 +12,8 @@ a{
     text-decoration: none;
 }
 
-section {
-    height: 700px;
-    font-family: 'Bree Serif', serif;
-    margin: 3px 230px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: top;
-   /* border: 2px solid;*/
-}
 
-h1 {
-    font-size: 3rem;
-    text-align: center;
-    margin-top: 50px;
-}
 
-p {
-    text-align: center;
-    margin-top: 50px;
-}
+
+
+
