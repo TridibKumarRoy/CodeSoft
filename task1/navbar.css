@@ -34,6 +34,14 @@ nav{
     margin: 10px 20px;
     list-style: none;
 }
+.nav-links-bs a{
+    padding: 3px 10px;
+    border-radius: 5px;
+}
+.nav-links-bs a:hover{
+    background-color: aliceblue;
+    color: black;
+}
 
 @media (max-width:999px){
     
@@ -73,7 +81,7 @@ nav{
        font-size: small;
     }
     .nav-links-bs{
-        margin: 5px 20px;
+        margin: 5px 10px;
         list-style: none;
     }
 }
