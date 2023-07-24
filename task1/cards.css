@@ -4,6 +4,8 @@
     align-items: center;
     flex-wrap: wrap;
     margin-top: 50px ;
+    width: 100%;
+    /* border: 2px solid; */
 }
 .card{
     margin: 10px;
