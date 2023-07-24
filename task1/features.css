@@ -3,12 +3,16 @@
     flex-direction: column;
     margin-top: 50px;
 }
+
 .feature{
     height: 200px;
-    border: 2px solid;
-    margin: 10px;
-    padding: 30px;
+    /* border: 2px solid; */
+    margin: 10px ;
+    padding: 30px 40px;
     border-radius: 20px;
+    
+    /* background-opacity: .5; */
+   
 }
 .features_title{
     text-align: center;
@@ -16,6 +20,7 @@
 }
 .f_inner_container1{
     float: right;
+    
 }
 .f_inner_container2{
     float: left;
@@ -41,6 +46,43 @@
 
 .f_inner_container{
     width: 50%;
+}
+.f_inner_container h3{
+    margin-bottom: 10px;
+    
+}
+
+
+.feature1{
+
+    background: url('wp2643964-wallpaper-moon.jpg') no-repeat center left/cover;
+}
+.feature2{
+    background: url('mars.jpg') no-repeat center center/cover;
+}
+.feature3{
+    background: url('Milky Way galaxy.jpg') no-repeat center center/cover;
+    
+}
+.feature4{
+    background: url('spacewalk..jpg') no-repeat center center/cover;
+    
+}
+.feature5{
+    background: url('Asteroid Mining.jpg') no-repeat center center/cover;
+    
+}
+.feature6{
+    background: url('Interstellar Safari .jpg') no-repeat center center/cover;
+    
+}
+.feature7{
+    background: url('Space Station.jpg') no-repeat center center/cover;
+    
+}
+.feature8{
+    background: url('Space Station.jpg') no-repeat center center/cover;
+
 }
 @media (max-width:650px){
     .f_inner_container{
