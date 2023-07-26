@@ -10,6 +10,8 @@
     margin: 10px ;
     padding: 30px 40px;
     border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    color: black;
     
     /* background-opacity: .5; */
    
@@ -18,31 +20,40 @@
     text-align: center;
     margin-bottom: 30px;
 }
+
+
 .f_inner_container1{
-    float: right;
+    /* float: right; */
+    
     
 }
 .f_inner_container2{
-    float: left;
+    /* float: left; */
+    
 }
 .f_inner_container3{
-    float: right;
+    /* float: right; */
 }
 .f_inner_container4{
-    float: left;
+    /* float: left; */
 }
 .f_inner_container5{
-    float: right;
+    /* float: right; */
 }
 .f_inner_container6{
-    float: left;
+    /* float: left; */
 }
 .f_inner_container7{
-    float: right;
+    /* float: right; */
 }
 .f_inner_container8{
-    float: left;
-}
+    /* float: left; */
+} 
+
+
+
+
+
 
 .f_inner_container{
     width: 50%;
@@ -53,36 +64,53 @@
 }
 
 
-.feature1{
+ .feature1{
 
-    background: url('wp2643964-wallpaper-moon.jpg') no-repeat center left/cover;
+    /* background: url('wp2643964-wallpaper-moon.jpg') no-repeat center left/cover; */
 }
 .feature2{
-    background: url('mars.jpg') no-repeat center center/cover;
+    /* background: url('mars.jpg') no-repeat center center/cover; */
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    box-shadow: inset 0px 0px 10px rgba(255, 255, 255, 0.363);
 }
 .feature3{
-    background: url('Milky Way galaxy.jpg') no-repeat center center/cover;
+    /* background: url('Milky Way galaxy.jpg') no-repeat center center/cover; */
     
 }
 .feature4{
-    background: url('spacewalk..jpg') no-repeat center center/cover;
-    
+    /* background: url('spacewalk..jpg') no-repeat center center/cover; */
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    box-shadow: inset 0px 0px 10px rgba(255, 255, 255, 0.363);
 }
 .feature5{
-    background: url('Asteroid Mining.jpg') no-repeat center center/cover;
+    /* background: url('Asteroid Mining.jpg') no-repeat center center/cover; */
     
 }
 .feature6{
-    background: url('Interstellar Safari .jpg') no-repeat center center/cover;
-    
+    /* background: url('Interstellar Safari .jpg') no-repeat center center/cover; */
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    box-shadow: inset 0px 0px 10px rgba(255, 255, 255, 0.363);
 }
 .feature7{
-    background: url('Space Station.jpg') no-repeat center center/cover;
+    /* background: url('Space Station.jpg') no-repeat center center/cover; */
     
 }
 .feature8{
-    background: url('Space Station.jpg') no-repeat center center/cover;
+    /* background: url('Space Station.jpg') no-repeat center center/cover; */
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    box-shadow: inset 0px 0px 10px rgba(255, 255, 255, 0.363);
+} 
 
+
+
+#f_inner_container_img1{
+    height: 160px;
+    float: right;
+    clear: both;
 }
 @media (max-width:650px){
     .f_inner_container{
@@ -90,6 +118,30 @@
     }
     .feature{
         height: 210px;
-        
+    }
+    }
+@media (max-width:530px){
+    .feature{
+        height: 250px;
+    }
+    }
+@media (max-width:450px){
+    .feature{
+        height: 270px;
+    }
+    }
+@media (max-width:422px){
+    .feature{
+        height: 290px; 
+    }
+    }
+@media (max-width:396px){
+    .feature{
+        height: 350px;
+    }
+    }
+@media (max-width:372px){
+    .feature{
+        height: 400px; 
     }
     }
