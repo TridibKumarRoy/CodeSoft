@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navigation Bar</title>
+    <link rel="stylesheet" href="nav.css" />
+    <link rel="stylesheet" href="footer.css" />
+    <script
+      src="https://kit.fontawesome.com/82f797382f.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <header>
+        <nav class="navbar">
+          <div class="logo_header">
+            <a href="#" class="logo">Logo</a>
+    
+            <button class="navbar_toggle">
+              <i class="fas fa-bars"></i>
+            </button>
+          </div>
+    
+          <ul class="main_nav">
+            <li>
+              <a href="#" class="nav_links">Home</a>
+            </li>
+            <li>
+              <a href="#" class="nav_links">About</a>
+            </li>
+            <li>
+              <a href="#" class="nav_links">Contact</a>
+            </li>
+            <li>
+              <a href="#" class="nav_links">Blog</a>
+            </li>
+          </ul>
+        </nav>
+    </header>
+
+
+
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2023 Tridib Kumar Roy. All rights reserved.</p>
+            <ul class="social-icons">
+                <li><a href="#"><img src="facebook-icon.png" alt="Facebook"></a></li>
+                <li><a href="#"><img src="twitter-icon.png" alt="Twitter"></a></li>
+                <li><a href="#"><img src="linkedin-icon.png" alt="LinkedIn"></a></li>
+            </ul>
+        </div>
+    </footer>
+    
+
+
+    <script>
+      const navToggle = document.querySelector(".navbar_toggle");
+      const links = document.querySelector(".main_nav");
+
+      navToggle.addEventListener("click", function () {
+        links.classList.toggle("show_nav");
+      });
+    </script>
+  </body>
+</html>
