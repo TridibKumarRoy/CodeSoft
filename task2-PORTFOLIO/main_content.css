@@ -10,6 +10,7 @@
     width: 90%;
     margin: 30px 0px;
     font-size: 30px;
+    /* margin-top: 200px; */
 
 }
 
@@ -25,33 +26,56 @@
     display: flex;
     justify-content: center;
     /* align-items: center; */
+    
+}
+.about_me>div{
+    padding-left: 100px;
+    
+}
+.about_me>h1{
+    padding-left: 100px;
+    
 }
 .about_me_items{
     margin: 10px;
     /* font-size: 30px; */
+
 }
 
-.skills_items {}
-.skills {
+.skills_c,.about_me,.projects_c {
+    margin-top: 200px;
+}
+.skills_c,.about_me,.projects_c>h1{
+    text-align: center;
+}
+.skills,.projects {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     margin-top: 60px;
 }
-.skill {
-    margin: 50px;
+.skill, .project {
+    margin: 5px 50px;
     width: 365px;
     height: 400px;
     /* border: 3px solid; */
+    /* text-align: justify; */
 }
-
-
-.projects_items {}
-
+.project {
+    height: 500px;
+}
 
 @media only screen and (max-width : 992px){
     .about_me {
         flex-direction: column;
+    }
+    .about_me>div{
+        padding-left: 0px;
+        
+    }
+    .about_me>h1{
+        padding-left: 0px;
+        
     }
 }
