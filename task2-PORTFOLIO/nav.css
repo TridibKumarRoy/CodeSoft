@@ -1,6 +1,8 @@
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Josefin Sans', sans-serif;
+   
   }
   
   a{
@@ -33,7 +35,8 @@
     margin-left: 5%;
     color: #ffffff;
     font-size: 25px;
-    font-weight: bold;
+    font-weight: bolder;
+
   }
   .logo_header{
     display: flex;
@@ -49,12 +52,16 @@
     list-style: none;
   }
   .main_nav li:hover{
-    background-color: gray
+    background-color: rgb(70, 93, 102);
+    /* padding: 5px 10px 0px 10px; */
+    border-radius: 10px;
   }
   
   .main_nav li{
     display: inline;
     color: #ffffff;
+    padding: 5px 10px 5px 10px;
+    border-radius: 10px;
   }
   .main_nav li a{
     color: #ffffff;
@@ -93,6 +100,7 @@
       justify-content: center;
       text-align: center;
       padding: 0%;
+      
     }
     .navbar_toggle {
       margin-left: 5%;

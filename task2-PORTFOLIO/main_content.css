@@ -1,0 +1,43 @@
+.cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e9e7e7;
+}
+
+.con_items {
+    width: 90%;
+    margin: 30px 0px;
+    font-size: 30px;
+
+}
+
+.p_intro {
+    font-weight: 900;
+    font-size: 50px;
+    width: 67%;
+    padding: 70px 0px;
+    line-height: 80px;
+}
+
+.about_me {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+.about_me_items{
+    margin: 10px;
+    /* font-size: 30px; */
+}
+
+.skills_items {}
+
+.projects_items {}
+
+
+@media only screen and (max-width : 992px){
+    .about_me {
+        flex-direction: column;
+    }
+}
