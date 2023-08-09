@@ -58,12 +58,12 @@
 .skill, .project {
     margin: 5px 50px;
     width: 365px;
-    height: 400px;
+    height: 500px;
     /* border: 3px solid; */
     /* text-align: justify; */
 }
 .project {
-    height: 500px;
+    height: 600px;
 }
 
 @media only screen and (max-width : 992px){
