@@ -32,6 +32,20 @@
 }
 
 .skills_items {}
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+.skill {
+    margin: 40px;
+    width: 355px;
+    height: 400px;
+    border: 3px solid;
+}
+
 
 .projects_items {}
 
