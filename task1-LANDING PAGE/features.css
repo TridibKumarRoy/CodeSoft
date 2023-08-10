@@ -2,10 +2,13 @@
     display: flex;
     flex-direction: column;
     margin-top: 50px;
+    justify-content: center;
+    align-items: center;
 }
 
 .feature{
-    height: 200px;
+    height:fit-content;
+    width: 70%;
     /* border: 2px solid; */
     margin: 10px ;
     padding: 30px 40px;
@@ -14,6 +17,27 @@
     color: black;
     
     /* background-opacity: .5; */
+   
+}
+.feature2,.feature4,.feature6,.feature8 h3{
+    text-shadow: 0px 0px 7px rgb(20, 114, 255);
+   
+}
+.feature1,.feature3,.feature5,.feature7 h3{
+    /* text-shadow: 0px 0px 6px rgb(173, 250, 186); */
+    
+   
+}
+.feature2,.feature4,.feature6,.feature8 {
+    
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    box-shadow: inset 0px 0px 5px rgba(255, 255, 255, 0.363);
+   
+}
+.feature1,.feature3,.feature5,.feature7 {
+    
+    
    
 }
 .features_title{
@@ -36,9 +60,7 @@
 }
 .feature2{
     /* background: url('mars.jpg') no-repeat center center/cover; */
-    background-color: rgb(0, 0, 0);
-    color: aliceblue;
-    box-shadow: inset 0px 0px 10px rgba(255, 255, 255, 0.363);
+    
 }
 .feature3{
     /* background: url('Milky Way galaxy.jpg') no-repeat center center/cover; */
@@ -46,9 +68,7 @@
 }
 .feature4{
     /* background: url('spacewalk..jpg') no-repeat center center/cover; */
-    background-color: rgb(0, 0, 0);
-    color: aliceblue;
-    box-shadow: inset 0px 0px 10px rgba(255, 255, 255, 0.363);
+    
 }
 .feature5{
     /* background: url('Asteroid Mining.jpg') no-repeat center center/cover; */
@@ -57,8 +77,7 @@
 .feature6{
     /* background: url('Interstellar Safari .jpg') no-repeat center center/cover; */
     background-color: rgb(8, 8, 8);
-    color: aliceblue;
-    box-shadow: inset 0px 0px 10px rgba(255, 255, 255, 0.363);
+   
 }
 .feature7{
     /* background: url('Space Station.jpg') no-repeat center center/cover; */
@@ -66,9 +85,7 @@
 }
 .feature8{
     /* background: url('Space Station.jpg') no-repeat center center/cover; */
-    background-color: rgb(0, 0, 0);
-    color: aliceblue;
-    box-shadow: inset 0px 0px 10px rgba(255, 255, 255, 0.363);
+    
 } 
 
 
@@ -78,36 +95,9 @@
     float: right;
     clear: both;
 }
-@media (max-width:650px){
-    .f_inner_container{
-        width: 100%;
-    }
+
+@media (max-width:600px){
     .feature{
-        height: 210px;
+        width: 90%; 
     }
-    }
-@media (max-width:530px){
-    .feature{
-        height: 250px;
-    }
-    }
-@media (max-width:450px){
-    .feature{
-        height: 280px;
-    }
-    }
-@media (max-width:422px){
-    .feature{
-        height: 370px; 
-    }
-    }
-@media (max-width:396px){
-    .feature{
-        height: 370px;
-    }
-    }
-@media (max-width:382px){
-    .feature{
-        height: 410px; 
-    }
-    }
+    } 
