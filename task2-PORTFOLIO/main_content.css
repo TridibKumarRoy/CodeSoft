@@ -79,10 +79,11 @@
         
     }
     .project {
-        height: 610px;
+        /* height: 610px; */
+        height: fit-content;
     }
     .skill{
-        height: 500px;
+        height: fit-content;
 
     }
 }
